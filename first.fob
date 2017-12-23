@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+  file:     first.fob
+  created:  2017-12.23T15.17
+  author:   Pete Za Sayari <petezasayari@gmail.com>
+  licence:  unlicenced
+-->
+
+<fo:root xmlns:fo="http://www.w3.org/1999/XML/Format">
+
+  <fo:layout-master-set>
+    <!-- Le misure dei margini si basano sui valori della
+         stampante -->
+    <fo:simple-page-master
+        master-name="claim-first-page"
+        page-height="29.7cm"
+        page-width="21cm"
+        margin-lef=""
+        margin-right=""
+        margin-top=""
+        margin-bottom="">
+      <fo:region-before />
+      <fo:region-after />
+      <fo:region-start />
+      <fo:region-end />
+      <fo:region-body />
+    </fo:simple-page-master>
+    <fo:simple-page-master
+        master-name="claim-remaining-pages"
+        page-height="29.7cm"
+        page-width="21cm"
+        margin-lef=""
+        margin-right=""
+        margin-top=""
+        margin-bottom="">
+      <fo:region-before />
+      <fo:region-after />
+      <fo:region-start />
+      <fo:region-end />
+      <fo:region-body />
+    </fo:simple-page-master>
+  </fo:layout-master-set>
+
+  <fo:page-sequence>
+  </fo:page-sequence>
+
+</fo:root>
